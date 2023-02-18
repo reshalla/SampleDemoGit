@@ -7,7 +7,7 @@ public class BrowserActivities {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\areshma\\OneDrive - Capgemini\\Documents\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\path\\Documents\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		
 		driver.manage().window().maximize();

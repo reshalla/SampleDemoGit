@@ -8,7 +8,7 @@ public class seleniumBasic {
 	public static void main(String[] args) {
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\areshma\\OneDrive - Capgemini\\Documents\\chromedriver.exe");
+				"C:\\Users\\path\\Documents\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/");
